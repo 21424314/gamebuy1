@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shoppingcart/shoppingcart",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle": "drak",
+    "navigationBarBackgroundColor": "#C81623",
+    "navigationBarTitleText": "游乐购",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "backgroundColor": "#fff",
+    "selectedColor": "#e4393c",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"/images/bar/serch-0.png",
+      "selectedIconPath":"/images/bar/serch-1.png"
+    },{
+      "pagePath": "pages/shoppingcart/shoppingcart",
+      "text": "购物车",
+      "iconPath": "/images/bar/shoppingcart-0.png",
+      "selectedIconPath": "/images/bar/shoppingcart-1.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "个人中心",
+      "iconPath": "/images/bar/order-0.png",
+      "selectedIconPath": "/images/bar/order-1.png"
+    }]
+  }
+}

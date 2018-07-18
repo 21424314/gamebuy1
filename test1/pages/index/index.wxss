@@ -1,0 +1,33 @@
+.search{
+  width: 100%;
+  background-color: #d53e37;
+  height: 50px;
+  line-height: 50px;
+  font-family: "Microsoft YaHei";
+}
+.searchInput{
+  width: 95%;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+.searchInput image{
+  position: relative;
+  top: 7px;
+}
+.searchContent{
+  font-size: 12px;
+  color:#777;
+  margin-left: 18px;
+}
+.haibao{
+  text-align: center;
+  width: 100%;
+}
+.side-image{
+  width: 100%;
+  height: 160px;
+}

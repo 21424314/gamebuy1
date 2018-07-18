@@ -1,0 +1,17 @@
+<view class="content">
+  <view class="search">
+    <view class="searchInput" bindtap="searchInput">
+      <image src="/images/icon/search.png" style="width:15px;height:19px;"></image>
+      <text class="searchContent">搜您想要</text>
+      </view>
+  </view>
+  <view class="haibao">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:160px;">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="side-image"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
